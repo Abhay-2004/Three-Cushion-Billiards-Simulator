@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="tableGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#228B22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#006400;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f0f0f0"/>
+  
+  <!-- Billiard Table -->
+  <rect x="20" y="40" width="360" height="220" fill="url(#tableGradient)" stroke="#8B4513" stroke-width="10" rx="20"/>
+  
+  <!-- Cushions -->
+  <line x1="30" y1="50" x2="370" y2="50" stroke="#8B4513" stroke-width="5"/>
+  <line x1="30" y1="250" x2="370" y2="250" stroke="#8B4513" stroke-width="5"/>
+  <line x1="30" y1="50" x2="30" y2="250" stroke="#8B4513" stroke-width="5"/>
+  <line x1="370" y1="50" x2="370" y2="250" stroke="#8B4513" stroke-width="5"/>
+  
+  <!-- Balls -->
+  <circle cx="120" cy="150" r="15" fill="#FFFFFF" stroke="#000000" stroke-width="1"/> <!-- White ball -->
+  <circle cx="200" cy="150" r="15" fill="#FF0000" stroke="#000000" stroke-width="1"/> <!-- Red ball -->
+  <circle cx="280" cy="150" r="15" fill="#FFFF00" stroke="#000000" stroke-width="1"/> <!-- Yellow ball -->
+  
+  <!-- Cue stick -->
+  <line x1="80" y1="150" x2="20" y2="150" stroke="#8B4513" stroke-width="3"/>
+  
+  <!-- Title -->
+  <text x="200" y="30" font-family="Arial" font-size="20" fill="#333" text-anchor="middle" font-weight="bold">Three-Cushion Billiards</text>
+  
+  <!-- Player labels -->
+  <text x="50" y="290" font-family="Arial" font-size="14" fill="#333">Player A</text>
+  <text x="330" y="290" font-family="Arial" font-size="14" fill="#333">Player B</text>
+</svg>
